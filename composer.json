@@ -11,7 +11,9 @@
   "description": "hexlet php-package",
   "license": "MIT",
   "scripts": {
-    "test": "phpunit tests"
+    "test": "phpunit tests",
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf"
   },
   "autoload": {
     "psr-4": {
@@ -34,8 +36,8 @@
     "phpstan/phpstan-phpunit": "^1.2.2",
     "phpstan/extension-installer": "^1.2",
     "symfony/var-dumper": "^6.2.1",
-    "phpunit/phpunit": "^9.5.26",
-    "squizlabs/php_codesniffer": "^3.7.1"
+    "phpunit/phpunit": "^9.6.15",
+    "squizlabs/php_codesniffer": "^3.8"
   },
   "config": {
     "allow-plugins": {
